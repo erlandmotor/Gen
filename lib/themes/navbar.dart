@@ -43,7 +43,7 @@ class NavBar extends StatelessWidget {
             ? Image.asset('assets/images/white_logo.png', scale: 18)
             : Image.asset('assets/images/black_logo.png', scale: 18),
         const SizedBox(height: 20),
-        const Text('Made By Ashwin', style: TextStyle(fontSize: 15)),
+        const Text('Made By RootSec BOT', style: TextStyle(fontSize: 15)),
       ],
     ),
   );
@@ -54,7 +54,7 @@ class NavBar extends StatelessWidget {
       children: [
         ListTile(
           leading: const Icon(Icons.mark_unread_chat_alt_outlined),
-          title: const Text('ChatGPT'),
+          title: const Text('ROOTSEC BOT'),
           onTap: () {
             Navigator.pop(context);
             Navigator.of(context).pushReplacement(MaterialPageRoute(
