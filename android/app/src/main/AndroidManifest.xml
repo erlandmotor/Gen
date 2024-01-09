@@ -15,7 +15,7 @@
     </queries>
 
    <application
-        android:label="GPTGen"
+        android:label="ROOT-BOT"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
